@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Certified Quality Associates</title>
+	
+	
+	<!-- --libraries-- -->
+	
+	<!-- jQuery -->
+	<script type = "text/javascript" src = "./assets/lib/jquery/jquery.js"></script>
+	<script type = "text/javascript" src = "./assets/lib/jquery/jquery-migrate.min.js"></script>
+
+	<!-- Bootstrap -->
+	<link rel = "stylesheet" type = "text/css" href = "./assets/lib/bootstrap/bootstrap.css"/>
+	<script type = "text/javascript" src = "./assets/lib/bootstrap/bootstrap.min.js"></script>
+    
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Open+Sans:300,400|Oswald|Roboto+Condensed|Roboto:300,400|Source+Sans+Pro" rel="stylesheet">
+
+	<!-- --stylesheet-- -->
+	<link rel = "stylesheet" type = "text/css" href = "./assets/css/style.css"/>	
+		
+	<!-- --javascript-- -->
+	<script type = "text/javascript" src = "./assets/js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="page-wrap">            
+        <header>         
+            <div class="container">
+                <div class="row header-top">                        
+                    <div class="menu-section">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <div class="logo-section">
+                                        <a href="#"><img src="./assets/imgs/logo.png"/></a>
+                                    </div>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="./index.html">Home</a></li>
+                                        <li><a href="./index.html#services">Services</a></li>
+                                        <li><a href="./contactus.html">Contact Us</a></li>
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div>
+                <div class="row header-bottom">
+                    <div class="col-md-6 header-desc">
+                        <span>Sed ut perspiciatis unde omni iste natus error sit voluptatem accusantium</span>
+                    </div>
+                    <div class="col-md-6 header-contact">
+                        <div class="contact-phone"><label>Phone: </label> <a href="tel:8774222321">877-422-2321</a></div>
+                        <div class="contact-fax"><label>Fax: </label> <a href="fax:8778192673">877-819-2673</a></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="content">
+            <div class="container">
+            <h2 class="page-title">Contact Us</h2>
+            <div class="page-form">
+                <div class="contact-info">
+                    <h4>Certified Quality Associates, Inc.</h4>
+                    <ul>
+                        <li>20 Trafalgar Square</li>
+                        <li>Suite 481</li>
+                        <li>Nashua, NH 03063</li>
+                        <li>Phone: <a href="tel:8774222321">(877)422-2321</a></li>
+                        <li>Email: <a href="mailto:info@certifiedq.com">info@certifiedq.com</a></li>                    
+                    </ul>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>How Can We Help?</h3>
+                    
+                    <form>
+                        <span>* indicates required field</span> 
+                        
+                        <div class="contact-group form-fields">
+                            <div class="form-group">
+                                <label for="contact-name">Name:*</label>
+                                <input type="text" class="form-control" id="contact-name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Email:*</label>
+                                <input type="email" class="form-control" id="contact-email" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-title">Title:*</label>
+                                <input type="text" class="form-control" id="contact-title" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-company">Company or Organization:*</label>
+                                <input type="text" class="form-control" id="contact-company" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-phone">Phone:*</label>
+                                <input type="text" class="form-control" id="contact-phone" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-site">Web Site:</label>
+                                <input type="text" class="form-control" id="contact-site"/>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-group sel-service">
+                            <h4>Please select consulting services you are interested in:</h4>
+                            
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-iso9001"/>
+                                    ISO 9001
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-iso13485"/> 
+                                    ISO 13485
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-mdsap"/> 
+                                    MDSAP
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-fda"/> 
+                                    FDA Remediation
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-mock"/> 
+                                    Mock Inspections
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-technical"/> 
+                                    Technical File Review
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-internal"/> 
+                                    Internal Audits
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-supplier"/> 
+                                Supplier Audits
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-gap"/> 
+                                    Gap Assessments
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-document"/> 
+                                    Document Control
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-complaints"/> 
+                                    Complaints
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">                                    
+                                    <input type="checkbox" class="form-check-input" id="service-due"/> 
+                                    Due Dillegence
+                                </label>  
+                            </div>
+                        </div>
+
+                        <div class="contact-group sel-additional">
+                            <h4>Additional Information:</h4>
+
+                            <div class="form-group">
+                                <textarea class="form-control" id="additional" rows="3"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="contact-group sel-attach">
+                            <h4>If you have any relevant file attachments you'd like to submit, please attach here <br/>(10MB file size limit).</h4>
+
+                            <div class="form-group">
+                                <label for="contact-attach">Attachments (if applicable):</label>
+                                <input type="file" class="form-control" id="contact-attach"/>
+                                <small class="form-text text-muted">
+                                    Acceptable file types: doc,docx,pdf,txt,gif,jpg,jpeg,png.<br/>
+                                    Maximum file size: 10mb.
+                                </small>    
+                            </div>
+                        </div>
+
+                        <div class="contact-group sel-desc">
+                            <h4>EMPLOYMENT OPPORTUNITIES</h4>
+
+                            <p>
+                                Certified Quality Associates, Inc. is a growing consulting firm whose services encompass Consulting, Training, E-Learning, Internal Auditing and Document Control. As we continue to grow, we need high caliber, experienced individuals to join our team.
+                            </p>
+                        </div>
+                        
+                        <div class="contact-group sel-submit">
+                            <input type="submit" class="btn btn-primary" value="Submit"/>
+                        </div>
+                        
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-left">Copyright &copy; Certifued Quality Associates. Inc | 2016</div>
+                        <div class="col-md-6 text-right">
+                            <a href="./contactus.html">Contact Us</a> All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+     
+</body>
+</html>
